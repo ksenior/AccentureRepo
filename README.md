@@ -59,6 +59,11 @@ Se utilizaron variables en el archivo application.properties tales como:
 Los datos de conexion a la base de datos de H2 se encuentra en el application.properties
 
 
+## Documentation
+
+[Documentacion Swagger](http://localhost:8090/swagger-ui/)
+
+
 ## Autores
 
 - [@KevinSenior](https://github.com/ksenior)
