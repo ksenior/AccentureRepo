@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.accenture.reto.RetoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.634 s <<< FAILURE! - in com.accenture.reto.RetoApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'albumService': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'endpoint.mock' in value "${endpoint.mock}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'endpoint.mock' in value "${endpoint.mock}"
+
